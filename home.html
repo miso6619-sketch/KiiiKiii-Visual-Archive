@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KiiiKiii Visual Archive</title>
+
+    <link rel="icon" href="img/favicon.jfif">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+    <main class="intro-page">
+        <section class="intro-box">
+            <video class="intro-video" autoplay muted loop playsinline>
+                <source src="img/intro-video.mp4" type="video/mp4">
+            </video>
+
+            <div class="intro-content">
+                <p class="intro-sub">VISUAL ARCHIVE</p>
+
+                <h1>KiiiKiii</h1>
+
+                <a href="archive.html" class="intro-btn" id="enterBtn">
+                    키키하기
+                </a>
+            </div>
+
+            <ul class="intro-sns">
+                <li>
+                    <a href="https://www.instagram.com/kiiikiii.official/?hl=ko" target="_blank">
+                        <i class="ri-instagram-line"></i>
+                        <span>instagram</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://x.com/KiiiKiii_talk" target="_blank">
+                        <i class="ri-twitter-x-line"></i>
+                        <span>twitter</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/channel/UCaHwGJXFb28TekZMf7iFg5Q" target="_blank">
+                        <i class="ri-youtube-line"></i>
+                        <span>youtube</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script>
+        const enterBtn = document.getElementById("enterBtn");
+
+        enterBtn.addEventListener("click", () => {
+            localStorage.setItem("autoPlayBgm", "true");
+        });
+    </script>
+    </body>
+</html>
