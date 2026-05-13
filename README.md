@@ -1,4 +1,4 @@
-# 🎧 KiiiKiii Visual Archive
+# 🎤 KiiiKiii Visual Archive
 
 KiiiKiii의 무드와 감성을 기록한  
 아카이브 형식의 반응형 웹 프로젝트입니다.
