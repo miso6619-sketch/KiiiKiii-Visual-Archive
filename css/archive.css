@@ -12,14 +12,14 @@ body {
     background: var(--bg);
     color: var(--color-content);
     font-family: "Pretendard Variable", Pretendard, sans-serif;
-    cursor: url("/img/cursor-kiiikiii.png") 24 24, auto;
+    cursor: url("../img/cursor-kiiikiii.png") 24 24, auto;
 }
 
 a,
 button,
 input[type="button"],
 input[type="submit"] {
-    cursor: url("/img/cursor-kiiikiii-pointer1.png") 6 6, pointer;
+    cursor: url("../img/cursor-kiiikiii-pointer1.png") 6 6, pointer;
 }
 
 /* header */
@@ -129,7 +129,7 @@ input[type="submit"] {
 
     transform: translateZ(0);
     
-    cursor: url("/img/cursor-kiiikiii-pointer1.png") 6 6, auto;
+    cursor: url("../img/cursor-kiiikiii-pointer1.png") 6 6, pointer;
 }
 
 .music-progress{
