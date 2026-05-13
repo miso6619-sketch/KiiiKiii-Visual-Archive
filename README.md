@@ -3,7 +3,7 @@
 KiiiKiii의 무드와 감성을 기록한  
 아카이브 형식의 반응형 웹 프로젝트입니다.
 
-VISUAL / MEMBER / GOODS 카테고리를 통해  
+INTRO페이지와 VISUAL / MEMBER / GOODS 카테고리를 통해  
 KiiiKiii만의 몽환적이고 자유로운 분위기를 웹으로 표현했습니다.
 
 ---
@@ -11,9 +11,9 @@ KiiiKiii만의 몽환적이고 자유로운 분위기를 웹으로 표현했습�
 ## 📌 프로젝트 개요
 
 - 프로젝트명: KiiiKiii Visual Archive
-- 제작 기간: 2026.05
 - 유형: 반응형 웹 퍼블리싱
-- 컨셉: Visual Archive / Mood Board / Interactive Web
+- 목표: k-pop 팬들을 위한 kiiikiii의 Visual Archive 사이트
+- 제작방식: HTML / CSS / JavaScript / jQuery
 
 ---
 
@@ -30,7 +30,7 @@ KiiiKiii만의 몽환적이고 자유로운 분위기를 웹으로 표현했습�
 - 배경 음악 재생 기능
 - Play / Pause 인터랙션 구현
 - Progress Bar UI 구현
-- 페이지 이동 시 자동 재생 연결
+- INTRO 페이지에서 Archive로 이동 시 자동 재생 연결
 
 ---
 
@@ -43,11 +43,10 @@ KiiiKiii만의 몽환적이고 자유로운 분위기를 웹으로 표현했습�
 
 ## 🛠 사용 기술
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - jQuery
-- Isotope.js
 - Remix Icon
 
 ---
@@ -63,9 +62,9 @@ KiiiKiii만의 몽환적이고 자유로운 분위기를 웹으로 표현했습�
 
 ## 📱 반응형 대응
 
-- Desktop
-- Tablet
-- Mobile
+- 1024px
+- 768px
+- 430px
 
 디바이스 크기에 따라
 레이아웃 및 UI 요소 최적화 적용
@@ -74,4 +73,4 @@ KiiiKiii만의 몽환적이고 자유로운 분위기를 웹으로 표현했습�
 
 ## 🔗 프로젝트 링크
 
-👉 [사이트 바로가기]()
+👉 [사이트 바로가기](https://miso6619-sketch.github.io/KiiiKiii-Visual-Archive/)
